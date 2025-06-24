@@ -1,0 +1,13 @@
+apis:
+  default:
+    root: ./openapi.yaml
+
+theme:
+  openapi:
+    hideLogo: false
+    schemaExpansionLevel: 2
+    generateCodeSamples:
+      languages:
+       - lang: curl
+       - lang: JavaScript
+       - lang: Python
